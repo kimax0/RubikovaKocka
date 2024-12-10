@@ -1,5 +1,5 @@
 # Moj hobi - Rubikova kocka
-Ovo je vebsajt o mom omiljenom hobiju, rešavanje Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše rešiti Rubikovu kocku, i o nekim varijacijama Rubikove kocke.
+Ovo je vebsajt o mom omiljenom hobiju, slaganju Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše složiti Rubikovu kocku, i o nekim od najpoznatijih varijacija Rubikove kocke.
 
 # Pokretanje sajta
 ## Node.js
