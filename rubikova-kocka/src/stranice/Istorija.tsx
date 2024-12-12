@@ -30,7 +30,7 @@ const Istorija = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="col-xxl-2 col-xl-3 col-lg-4 col-12 mt-2">
+        <Col className="col-xxl-2 col-xl-3 col-lg-3 col-12 mt-2">
          <Image alt="Magična kocka" src="/istorija/magicna_kocka.png" className="img-fluid" />
         </Col>
         <Col>
@@ -57,7 +57,7 @@ const Istorija = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="col-xl-2 col-lg-3 col-12">
+        <Col className="col-xxl-2 col-lg-3 col-md-6 col-12">
           <Image alt="Rubikova kocka" src="/istorija/rubikova_kocka_igracka.jpg" className="img-fluid" />
         </Col>
         <Col>
@@ -85,7 +85,7 @@ const Istorija = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="col-xl-3 col-md-4 col-12 my-1 ms-auto">
+        <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1 ms-auto">
           <Card>
             <CardBody>
               <CardImg variant="top" alt="Rubikova magija" src="/istorija/rubikova_magija.jpg" />
@@ -93,7 +93,7 @@ const Istorija = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col className="col-xl-3 col-md-4 col-12 my-1">
+        <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1">
           <Card>
             <CardBody>
               <CardImg variant="top" alt="Rubikova zmija" src="/istorija/rubikova_zmija.png" />
@@ -101,7 +101,7 @@ const Istorija = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col className="col-xl-3 col-md-4 col-12 my-1 me-auto">
+        <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1 me-auto">
           <Card>
             <CardBody>
               <CardImg variant="top" alt="Rubikova lopta" src="/istorija/rubikova_lopta.jpg" />
