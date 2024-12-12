@@ -5,7 +5,7 @@ const Glavna = () => {
   return (
       <Container className="container-fluid">
         <Row>
-          <Col className="col-xxl-3 col-xl-4 col-lg-6 col-md-8 col-12">
+          <Col className="col-xl-3 col-md-6 col-12">
             <Image alt="Slika sa različitim kockama." src="/glavna/glavna_banner.jpg" className="img-fluid" />
           </Col>
           <Col className="mt-2">
