@@ -6,7 +6,7 @@ const Glavna = () => {
       <Container className="container-fluid">
         <Row>
           <Col className="col-xxl-3 col-xl-4 col-lg-6 col-md-8 col-12">
-            <Image alt="Slika sa različitim kockama." src="/glavna_banner.jpg" className="img-fluid" />
+            <Image alt="Slika sa različitim kockama." src="/glavna/glavna_banner.jpg" className="img-fluid" />
           </Col>
           <Col className="mt-2">
             <p>
@@ -28,7 +28,7 @@ const Glavna = () => {
         <Row>
           <Col className="col-xl-3 col-md-6 col-12">
             <Card className="my-1">
-              <Card.Img variant="top" alt="Magična kocka." src="/prvobitno_ime.jpg" />
+              <Card.Img variant="top" alt="Magična kocka." src="/glavna/prvobitno_ime.jpg" />
               <Card.Header>
                 <Card.Title>Prvobitno ime</Card.Title>
               </Card.Header>
@@ -40,7 +40,7 @@ const Glavna = () => {
           </Col>
           <Col className="col-xl-3 col-md-6 col-12">
             <Card className="my-1">
-              <Card.Img variant="top" alt="Slika univerzuma." src="/broj_kombinacija.jpg" />
+              <Card.Img variant="top" alt="Slika univerzuma." src="/glavna/broj_kombinacija.jpg" />
               <Card.Header>
                 <Card.Title>Broj kombinacija</Card.Title>
               </Card.Header>
@@ -52,7 +52,7 @@ const Glavna = () => {
           </Col>
           <Col className="col-xl-3 col-md-6 col-12">
             <Card className="my-1"> 
-              <Card.Img variant="top" alt="Tajmer Rubikova kocka." src="/svetski_rekord.jpg" />
+              <Card.Img variant="top" alt="Tajmer Rubikova kocka." src="/glavna/svetski_rekord.jpg" />
               <Card.Header>
                 <Card.Title>Svetski rekord</Card.Title>
               </Card.Header>
@@ -64,7 +64,7 @@ const Glavna = () => {
           </Col>
           <Col className="col-xl-3 col-md-6 col-12">
             <Card className="my-1">
-              <Card.Img variant="top" alt={`Knjiga "You Can Do the Cube".`} src="/prvo_uputstvo.jpg" />
+              <Card.Img variant="top" alt={`Knjiga "You Can Do the Cube".`} src="/glavna/prvo_uputstvo.jpg" />
               <Card.Header>
                 <Card.Title>Prvo uputstvo</Card.Title>
               </Card.Header>
