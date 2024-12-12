@@ -6,6 +6,11 @@ const Istorija = () => {
     <Container className="container-fluid">
       <Row>
         <Col>
+          <h1 className="text-center">Istorija</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
           <h2>Ernő Rubik</h2>
           <p>
             Ernő Rubik (Budimpešta, 13. jul 1944) je mađarski pronalazač, vajar i profesor arhitekture. 

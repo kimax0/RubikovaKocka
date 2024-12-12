@@ -4,6 +4,11 @@ const Varijante = () => {
   return (
     <Container className="container-fluid">
       <Row>
+        <Col>
+          <h1 className="text-center">Varijante</h1>
+        </Col>
+      </Row>
+      <Row>
         <h2 className="text-center">Kvadri</h2>
       </Row>
       <Row>
@@ -191,7 +196,7 @@ const Varijante = () => {
       </Row>
       <Row>
         <Col>
-          <p>
+          <p className="text-muted">
             Ovo je lista najpopularnijih <b>različitih</b> slagalica. Postoji previše varijanti, koje se slažu 
             na identičan način, koje nisam pomenuo. Ovo su najosnovije informacije, za manje poznate kocke 
             najbolje je da sami istražite. Kao polaznu tačku predlažem da istražite o slagalici "Square-1".
