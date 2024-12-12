@@ -4,15 +4,9 @@ const Varijante = () => {
   return (
     <Container className="container-fluid">
       <Row>
-        <Col>
-          <h1 className="text-center">Varijante</h1>
-        </Col>
-      </Row>
-      <Row>
-        <h2 className="text-center">Kvadri</h2>
-      </Row>
-      <Row>
         <Col className="col-12">
+          <h1 className="text-center">Varijante</h1>
+          <h2 className="text-center">Kvadri</h2>
           <h3>Kocke različitih dimenzija</h3>
           <p>
             Prvu grupu koju bih izdvojio jesu kocke raznih dimenzija. Originalna Rubikova kocka je kocka dimnezija 
