@@ -16,3 +16,23 @@ Sačekajte da se komanda izvrši (može trajati nekoliko minuta). Kada se izvrš
 npm run dev
 ```
 Nakon što se ova komanda izvrši, kliknite na link koji se prikaže (ili ga prekopirajte u pretraživač).
+
+# My Hobby - Rubik's Cube
+This is a website about my favorite hobby, solving Rubik's Cubes. On the site, you can find information about the history of the Rubik's Cube, the easiest ways to solve it, and some of the most popular variations of the Rubik's Cube.
+The quiz was added just to see how forms work in react-bootstrap, it has no functionality.
+
+# Starting the Website
+## Node.js
+First, you need to download Node.js. On the link, you will find the necessary files and instructions for downloading Node.js. Make sure to also download npm with Node.js (npm is automatically installed with Node.js on Windows operating systems).
+## Code
+You can download the code from this repository by clicking the green "<>Code" button and then selecting the "Download ZIP" option. Extract the ZIP file and remember its location.
+## npm
+Open the subdirectory "rubikova-kocka" from the previously extracted "RubikovaKocka" directory in a terminal, and run the command:
+```
+npm install
+```
+Wait for the command to complete (this may take a few minutes). Once it finishes, run the following command:
+```
+npm run dev
+```
+After this command executes, click on the displayed link (or copy it into a browser).
