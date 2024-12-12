@@ -21,7 +21,7 @@ const Navigacija = () => {
               Varijante
             </NavLink>
             <NavLink to="/uputstvo" className="p-1 text-reset text-decoration-none ms-auto">
-              Uputstva
+              Uputstvo
             </NavLink>
             <NavLink to="/kviz" className="p-1 text-reset text-decoration-none ms-auto">
               Kviz

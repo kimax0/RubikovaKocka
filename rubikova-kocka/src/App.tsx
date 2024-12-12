@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <Glavna /> } />
         <Route path="/istorija" element={ <Istorija /> } />
-        <Route path="/uputstva" element={ <Uputstvo /> } />
+        <Route path="/uputstvo" element={ <Uputstvo /> } />
         <Route path="/varijante" element={ <Varijante /> } />
         <Route path="/kviz" element={ <Kviz /> } />
       </Routes>
