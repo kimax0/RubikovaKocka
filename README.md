@@ -1,5 +1,5 @@
 # My Hobby - Rubik's Cube
-This is a website about my favorite hobby, solving Rubik's Cubes. On the site, you can find information about the history of the Rubik's Cube, the easiest ways to solve it, and some of the most popular variations of the Rubik's Cube.
+This is a website about my favorite hobby, solving Rubik's Cubes. On the site, you can find information about the history of the Rubik's Cube, the easiest ways to solve it, and some of the most popular variations of the Rubik's Cube. The english website is now deployed on Vercel and can be viewed [here](https://rubikova-kocka.vercel.app/en).
 
 # Starting the Website
 ## Node.js
@@ -17,8 +17,11 @@ npm run dev
 ```
 After this command executes, click on the displayed link (or copy it into a browser).
 
+# Motivation
+I started this project because I found out about Bootstrap and React and I wanted to try it out. Up until now I've only used HTML and CSS for web programming and Node.js is new to me. I ended up using React-Bootstrap to use Bootstrap objects (such as cards, navbars, lists) in the React TypeScript code. I'm now comfortable with Node.js and I plan on exploring other frameworks and maybe learning backend development.
+
 # Moj hobi - Rubikova kocka
-Ovo je vebsajt o mom omiljenom hobiju, slaganju Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše složiti Rubikovu kocku, i o nekim od najpoznatijih varijacija Rubikove kocke.
+Ovo je vebsajt o mom omiljenom hobiju, slaganju Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše složiti Rubikovu kocku, i o nekim od najpoznatijih varijacija Rubikove kocke. Srpska verzija sajta je sada objavljena na Vercel i može se pogledati na ovom [linku](https://rubikova-kocka.vercel.app/)
 
 # Pokretanje sajta
 ## Node.js
@@ -35,3 +38,6 @@ Sačekajte da se komanda izvrši (može trajati nekoliko minuta). Kada se izvrš
 npm run dev
 ```
 Nakon što se ova komanda izvrši, kliknite na link koji se prikaže (ili ga prekopirajte u pretraživač).
+
+# Motivacija
+Započeo sam ovaj projekat jer sam saznao za Bootstrap i React i želeo sam da ih isprobam. Do sada sam samo koristio HTML i CSS za veb programiranje i Node.js je za mene nov. Koristio sam React-Bootstrap kako bih mogao da koristim Bootstrap objekte (poput kartica, navbara, lista) u React TypeScript kodu. Sada sam mnogo sigurniji u svoje znanje iz Node.js i planiram da isprobam druge framework-e i možda da probam da se bavim backend-om.
