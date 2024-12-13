@@ -9,6 +9,7 @@ import Main from "./stranice/Main"
 import Navigation from "./komponente/Navigation"
 import History from "./stranice/History"
 import Variations from "./stranice/Variations"
+import Guide from "./stranice/Guide"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/en" element={ <><Navigation /> <Main /></> } />
         <Route path="/history" element={ <><Navigation /> <History /></> }/>
         <Route path="/variations" element={ <><Navigation /> <Variations /></> } />
+        <Route path="/guide" element={ <><Navigation /> <Guide /></> } />
       </Routes>
     </BrowserRouter>
   )
