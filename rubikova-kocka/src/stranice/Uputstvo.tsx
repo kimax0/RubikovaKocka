@@ -163,8 +163,8 @@ const Uputstva = () => {
             je na stranicu koja gleda ka nama, i onda okretati donja dva reda dok se ne poklope sa bojom ivice koja 
             gleda u nas. Tada gledamo koja je druga boja odabrane ivice, i u zavisnosti da li je trenutno ta boja levo 
             ili desno, uradimo algoritam za ubacivanje u levo ili u desno. Ako je neka ivica "zaglavljena" u pogrešnom 
-            mestu, ili je pogrešno orijentisana, samo ubacite neku ivicu sa žutom bojom na sebi kako bi ona izbacila tu 
-            koja vama treba. Algoritmi izgledaju ovako.
+            mestu, ili je pogrešno orijentisana, samo ubacite neku ivicu sa žutom bojom na sebi kako bi ona izbacila 
+            tu koja vama treba. Algoritmi izgledaju ovako.
           </p>
         </Col>
         <Col className="col-lg-3 col-sm-6 col-12">
@@ -180,16 +180,16 @@ const Uputstva = () => {
         <Col className="col-xl-9 col-lg-8 col-md-7 col-12">
           <h3>Žuti krst</h3>
           <p>
-            Ovo je najdalje što neko može stići čistom intuicijom jer sada algoritmi postaju rotacije delova, i prestaju 
-            da budu izbegavanje složenog dela jer su dve trećine kocke već složene. Trenutno je samo bitno da na žutoj 
-            stranici dobijemo žuti krst, nije bitno da se boje sa strane poklope kao što je bio slučaj sa belim krstom. 
-            Za ovaj korak je bitno znati samo jedan algoritam, ali zato morate znati kako okrenuti kocku da bi taj 
-            algoritam bio efektivan. Mogući rasporedi koje možemo da imamo na žutoj ivici su "tačka" (samo centar gleda ka 
-            gore, sve ivice gledaju u stranu), "latinično slovo L" (centar i dve susedne ivice gledaju ka gore, druge dve 
-            susedne ivice gledaju u stranu), "linija" (centar i dve ivice sa suprotnih strana gledaju ka gore, druge dve 
-            suprotne ivice gledaju u stranu) i "krst" (centar i sve ivice gledaju ka gore). Algoritam i ispravnu poziciju 
-            kocke za svaki oblik na žutoj stranici možete videti svaki put kada se kocka okrene (slobodno pauzirajte 
-            animaciju i idite korak po korak).
+            Ovo je najdalje što neko može stići čistom intuicijom jer sada algoritmi postaju rotacije delova, i 
+            prestaju da budu izbegavanje složenog dela jer su dve trećine kocke već složene. Trenutno je samo bitno 
+            da na žutoj stranici dobijemo žuti krst, nije bitno da se boje sa strane poklope kao što je bio slučaj 
+            sa belim krstom. Za ovaj korak je bitno znati samo jedan algoritam, ali zato morate znati kako okrenuti 
+            kocku da bi taj algoritam bio efektivan. Mogući rasporedi koje možemo da imamo na žutoj ivici su "tačka" 
+            (samo centar gleda ka gore, sve ivice gledaju u stranu), "latinično slovo L" (centar i dve susedne ivice 
+            gledaju ka gore, druge dve susedne ivice gledaju u stranu), "linija" (centar i dve ivice sa suprotnih 
+            strana gledaju ka gore, druge dve suprotne ivice gledaju u stranu) i "krst" (centar i sve ivice gledaju 
+            ka gore). Algoritam i ispravnu poziciju kocke za svaki oblik na žutoj stranici možete videti svaki put 
+            kada se kocka okrene (slobodno pauzirajte animaciju i idite korak po korak).
           </p>
         </Col>
         <Col className="col-xl-3 col-lg-4 col-md-5 col-12">
@@ -200,9 +200,10 @@ const Uputstva = () => {
         <Col className="col-xl-9 col-lg-8 col-md-7 col-12">
           <h3>Žute ivice</h3>
           <p>
-            Sada treba da namestimo da se ivice krsta poklapaju sa svim bojama oko sebe. Za ovo postoji jedan algoritam 
-            koji će zameniti mesta prednje i leve žute ivice. Orijentaciju kocke namestite vi tako da odgovara situaciji 
-            koja se nalazi na kocki. Bitno je stalno imati u glavi sliku toga koje dve ivice se menjaju.
+            Sada treba da namestimo da se ivice krsta poklapaju sa svim bojama oko sebe. Za ovo postoji jedan 
+            algoritam koji će zameniti mesta prednje i leve žute ivice. Orijentaciju kocke namestite vi tako da 
+            odgovara situaciji koja se nalazi na kocki. Bitno je stalno imati u glavi sliku toga koje dve ivice se 
+            menjaju.
           </p>
         </Col>
         <Col  className="col-xl-3 col-lg-4 col-md-5 col-12">
@@ -214,11 +215,12 @@ const Uputstva = () => {
           <h3>Raspoređivanje žutih ćoškova</h3>
           <p>
             Ovo je još jedan korak gde je bitnija orijentacija kocke od samog algoritma jer je samo 4 delića ostalo 
-            nesloženo i mora da se vodi računa oko dosta stvari. Ovaj algoritam menja lokacije 3 ćoška sa žute stranice, 
-            ćošak koji se nalazi gore-desno u odnosu na pogled spreda ostaje nepromenjen. Na tu lokaciju je bitno 
-            staviti ćošak koji je na svom mestu, nije bitno da li je rotiran kako treba. Kada taj ćošak "sačuvamo" na 
-            mestu koje ostaje nepromenjeno, možemo ponavljati algoritam dok se preostale tri ne rasporede gde treba. 
-            Ukoliko nijedan ćošak nije na svom mestu izvršite algoritam jednom u bilo kojoj orijentaciji.
+            nesloženo i mora da se vodi računa oko dosta stvari. Ovaj algoritam menja lokacije 3 ćoška sa žute 
+            stranice, ćošak koji se nalazi gore-desno u odnosu na pogled spreda ostaje nepromenjen. Na tu lokaciju 
+            je bitno staviti ćošak koji je na svom mestu, nije bitno da li je rotiran kako treba. Kada taj ćošak 
+            "sačuvamo" na mestu koje ostaje nepromenjeno, možemo ponavljati algoritam dok se preostale tri ne 
+            rasporede gde treba. Ukoliko nijedan ćošak nije na svom mestu izvršite algoritam jednom u bilo kojoj 
+            orijentaciji.
           </p>
         </Col>
         <Col className="col-xl-3 col-lg-4 col-md-5 col-12">
