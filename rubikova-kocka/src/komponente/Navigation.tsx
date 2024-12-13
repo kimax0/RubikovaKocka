@@ -6,7 +6,7 @@ const Navigation = () => {
     <Navbar expand="sm">
       <Container className="container-fluid">
         <NavbarBrand>
-          <NavLink to="/" className="text-reset text-decoration-none">
+          <NavLink to="/en" className="text-reset text-decoration-none">
             <Image alt="Rubik cube icon" src="/rubik.png" width="30" height="30" className="m-1" />
             Rubik's Cube
           </NavLink>
