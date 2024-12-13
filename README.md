@@ -21,7 +21,7 @@ After this command executes, click on the displayed link (or copy it into a brow
 I started this project because I found out about Bootstrap and React and I wanted to try it out. Up until now I've only used HTML and CSS for web programming and Node.js is new to me. I ended up using React-Bootstrap to use Bootstrap objects (such as cards, navbars, lists) in the React TypeScript code. I'm now comfortable with Node.js and I plan on exploring other frameworks and maybe learning backend development.
 
 # Moj hobi - Rubikova kocka
-Ovo je vebsajt o mom omiljenom hobiju, slaganju Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše složiti Rubikovu kocku, i o nekim od najpoznatijih varijacija Rubikove kocke. Srpska verzija sajta je sada objavljena na Vercel i može se pogledati na ovom [linku](https://rubikova-kocka.vercel.app/)
+Ovo je vebsajt o mom omiljenom hobiju, slaganju Rubikovih kocki. Na sajtu možete naći informacije o istoriji Rubikove kocke, kako najlakše složiti Rubikovu kocku, i o nekim od najpoznatijih varijacija Rubikove kocke. Srpska verzija sajta je sada objavljena na Vercel i može se pogledati na ovom [linku](https://rubikova-kocka.vercel.app/).
 
 # Pokretanje sajta
 ## Node.js
