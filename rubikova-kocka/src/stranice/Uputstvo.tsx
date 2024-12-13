@@ -35,8 +35,8 @@ const Uputstva = () => {
               <iframe width="250" height="380" src="https://ruwix.com/widget/3d/?alg=U&hover=1&flags=showalg" />
             </ListGroup.Item>
             <ListGroup.Item>
-              <li>D označava okretanje gornje stranice u smeru kazaljke na satu</li>
-              <iframe width="250" height="380" src="https://ruwix.com/widget/3d/?alg=U&hover=1&flags=showalg" />
+              <li>D označava okretanje donje stranice u smeru kazaljke na satu</li>
+              <iframe width="250" height="380" src="https://ruwix.com/widget/3d/?alg=D&hover=1&flags=showalg" />
             </ListGroup.Item>
             <ListGroup.Item>
               <li>F označava okretanje prednje stranice u smeru kazaljke na satu</li>

@@ -10,7 +10,7 @@ const Glavna = () => {
           </Col>
           <Col className="mt-2">
             <p>
-              Dobrodošli na moj sajt. Ovde se možete informisati o jednom neshvaćenom hobiju koji je često žrtva 
+              Dobro došli na moj sajt. Ovde se možete informisati o jednom neshvaćenom hobiju koji je često žrtva 
               predrasuda. Taj hobi je slaganje Rubikovih kocki. Teško je objasniti zašto ljudi pogrešno pretpostave 
               da se ovim bave samo "štreberi", ali možda se odgovor krije u samoj priči kako je nastala čuvena 
               3x3 Rubikova kocka.
@@ -42,7 +42,7 @@ const Glavna = () => {
             <Card className="my-1">
               <Card.Img variant="top" alt="Slika univerzuma." src="/glavna/broj_kombinacija.jpg" />
               <Card.Header>
-                <Card.Title>Broj kombinacija</Card.Title>
+                <Card.Title>Broj permutacija</Card.Title>
               </Card.Header>
               <Card.Body>
                 Broj svih mogućih permutacija 3x3 kocke je 43.252.003.274.489.856.000, odnosno malo više od 43 
@@ -69,7 +69,7 @@ const Glavna = () => {
                 <Card.Title>Prvo uputstvo</Card.Title>
               </Card.Header>
               <Card.Body>
-                Prvu uputstvo za slaganje 3x3 Rubikove kocke je napisao Patrick Bossert u knjizi "You Can Do the 
+                Prvo uputstvo za slaganje 3x3 Rubikove kocke je napisao Patrick Bossert u knjizi "You Can Do the 
                 Cube". Patrick je tada imao 13 godina.
               </Card.Body>
             </Card>

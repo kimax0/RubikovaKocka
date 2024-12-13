@@ -27,7 +27,7 @@ const Istorija = () => {
       </Row>
       <Row>
         <Col className="col-xxl-2 col-xl-3 col-lg-3 col-12 mt-2">
-         <Image alt="Magična kocka" src="/istorija/magicna_kocka.png" className="img-fluid" />
+         <Image alt="Magična kocka." src="/istorija/magicna_kocka.png" className="img-fluid" />
         </Col>
         <Col>
           <h2>Magična kocka</h2>
@@ -54,7 +54,7 @@ const Istorija = () => {
       </Row>
       <Row>
         <Col className="col-xxl-2 col-lg-3 col-md-6 col-12">
-          <Image alt="Rubikova kocka" src="/istorija/rubikova_kocka_igracka.jpg" className="img-fluid" />
+          <Image alt="Rubikova kocka." src="/istorija/rubikova_kocka_igracka.jpg" className="img-fluid" />
         </Col>
         <Col>
           <h2>Rubikova kocka - Igračka</h2>
@@ -84,7 +84,7 @@ const Istorija = () => {
         <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1 ms-auto">
           <Card>
             <CardBody>
-              <CardImg variant="top" alt="Rubikova magija" src="/istorija/rubikova_magija.jpg" />
+              <CardImg variant="top" alt="Rubikova magija." src="/istorija/rubikova_magija.jpg" />
               <CardTitle>Rubikova magija</CardTitle>
             </CardBody>
           </Card>
@@ -92,7 +92,7 @@ const Istorija = () => {
         <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1">
           <Card>
             <CardBody>
-              <CardImg variant="top" alt="Rubikova zmija" src="/istorija/rubikova_zmija.png" />
+              <CardImg variant="top" alt="Rubikova zmija." src="/istorija/rubikova_zmija.png" />
               <CardTitle>Rubikova zmija</CardTitle>
             </CardBody>
           </Card>
@@ -100,7 +100,7 @@ const Istorija = () => {
         <Col className="col-xxl-2 col-lg-3 col-md-4 col-12 my-1 me-auto">
           <Card>
             <CardBody>
-              <CardImg variant="top" alt="Rubikova lopta" src="/istorija/rubikova_lopta.jpg" />
+              <CardImg variant="top" alt="Rubikova lopta." src="/istorija/rubikova_lopta.jpg" />
               <CardTitle>Rubikova lopta</CardTitle>
             </CardBody>
           </Card>

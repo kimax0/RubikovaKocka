@@ -26,6 +26,9 @@ const Navigacija = () => {
             <NavLink to="/kviz" className="p-1 text-reset text-decoration-none ms-auto">
               Kviz
             </NavLink>
+            <NavLink to="/en" className="p-1 text-reset text-decoration-none ms-auto">
+              English
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

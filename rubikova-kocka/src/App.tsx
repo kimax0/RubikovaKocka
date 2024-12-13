@@ -5,17 +5,23 @@ import Varijante from "./stranice/Varijante"
 import Glavna from "./stranice/Glavna"
 import Kviz from "./stranice/Kviz"
 import Navigacija from "./komponente/Navigacija"
+import Main from "./stranice/Main"
+import Navigation from "./komponente/Navigation"
+import History from "./stranice/History"
+import Variations from "./stranice/Variations"
 
 function App() {
   return (
     <BrowserRouter>
-      <Navigacija />
       <Routes>
-        <Route path="/" element={ <Glavna /> } />
-        <Route path="/istorija" element={ <Istorija /> } />
-        <Route path="/uputstvo" element={ <Uputstvo /> } />
-        <Route path="/varijante" element={ <Varijante /> } />
-        <Route path="/kviz" element={ <Kviz /> } />
+        <Route path="/" element={ <><Navigacija /> <Glavna /></> } />
+        <Route path="/istorija" element={ <><Navigacija /> <Istorija /></> } />
+        <Route path="/uputstvo" element={ <><Navigacija /> <Uputstvo /></> } />
+        <Route path="/varijante" element={ <><Navigacija /> <Varijante /></> } />
+        <Route path="/kviz" element={ <><Navigacija /> <Kviz /></> } />
+        <Route path="/en" element={ <><Navigation /> <Main /></> } />
+        <Route path="/history" element={ <><Navigation /> <History /></> }/>
+        <Route path="/variations" element={ <><Navigation /> <Variations /></> } />
       </Routes>
     </BrowserRouter>
   )

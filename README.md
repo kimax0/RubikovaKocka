@@ -1,6 +1,5 @@
 # My Hobby - Rubik's Cube
 This is a website about my favorite hobby, solving Rubik's Cubes. On the site, you can find information about the history of the Rubik's Cube, the easiest ways to solve it, and some of the most popular variations of the Rubik's Cube.
-The quiz was added just to see how forms work in react-bootstrap, it has no functionality.
 
 # Starting the Website
 ## Node.js
