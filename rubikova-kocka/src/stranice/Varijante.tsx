@@ -61,7 +61,7 @@ const Varijante = () => {
       </Row>
       <Row>
         <Col>
-          <Link to="/guide">
+          <Link to="/uputstvo">
             <Button className="mx-auto col-12" variant="outline-primary">
               Naučite kako da složite 3x3 Rubikovu kocku.
             </Button>
