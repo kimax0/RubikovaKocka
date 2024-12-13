@@ -61,6 +61,15 @@ const Varijante = () => {
       </Row>
       <Row>
         <Col>
+          <Link to="/guide">
+            <Button className="mx-auto col-12" variant="outline-primary">
+              Naučite kako da složite 3x3 Rubikovu kocku.
+            </Button>
+          </Link>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
           <h3>Nepravilni kvadri</h3>
           <p>
             Do sad sam pisao 2x2, 3x3, 4x4, podrazumevajući da je i treća dimnezija ista. 2x2 je zapravo 2x2x2, 
@@ -187,15 +196,6 @@ const Varijante = () => {
               <CardTitle>Petaminx</CardTitle>
             </CardBody>
           </Card>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="col-12">
-          <Link to="/uputstvo">
-            <Button variant="outline-primary">
-              Naučite da slažete 3x3 Rubikovu kocku
-            </Button>
-          </Link>
         </Col>
       </Row>
       <Row>

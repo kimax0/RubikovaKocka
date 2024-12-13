@@ -61,6 +61,15 @@ const Variations = () => {
       </Row>
       <Row>
         <Col>
+          <Link to="/guide">
+            <Button className="mx-auto col-12" variant="outline-primary">
+              Learn how to solve a 3x3 Rubik's cube.
+            </Button>
+          </Link>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
           <h3>Non-cubes</h3>
           <p>
             Until now, I’ve been referring to 2x2, 3x3, 4x4, assuming that the third dimension is the same. So, 2x2 
@@ -191,18 +200,9 @@ const Variations = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="col-12">
-          <Link to="/guide">
-            <Button variant="outline-primary">
-              Learn how to solve a 3x3 Rubik's cube.
-            </Button>
-          </Link>
-        </Col>
-      </Row>
-      <Row>
         <Col>
           <p className="text-muted">
-            This is a list of the most popular <s>different</s> puzzles. There are too many variants that are 
+            This is a list of the most popular <b>different</b> puzzles. There are too many variants that are 
             solved in the same way, which I haven't mentioned. These are the most basic details; for lesser-known 
             cubes, it's best to do your own research. As a starting point, I suggest you look into the puzzle 
             "Square-1."
