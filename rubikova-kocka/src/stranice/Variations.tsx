@@ -1,4 +1,5 @@
-import { Card, CardBody, CardImg, CardTitle, Col, Container, Row } from "react-bootstrap"
+import { Button, Card, CardBody, CardImg, CardTitle, Col, Container, Row } from "react-bootstrap"
+import { Link } from "react-router"
 
 const Variations = () => {
   return (
@@ -187,6 +188,15 @@ const Variations = () => {
               <CardTitle>Petaminx</CardTitle>
             </CardBody>
           </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="col-12">
+          <Link to="/guide">
+            <Button variant="outline-primary">
+              Learn how to solve a 3x3 Rubik's cube.
+            </Button>
+          </Link>
         </Col>
       </Row>
       <Row>

@@ -6,7 +6,7 @@ const History = () => {
     <Container className="container-fluid">
       <Row>
         <Col>
-          <h1 className="text-center">Istorija</h1>
+          <h1 className="text-center">History</h1>
           <h2>Ernő Rubik</h2>
           <p>
             Ernő Rubik (Budapest, July 13, 1944) is a Hungarian inventor, sculptor, and professor of architecture. 
@@ -121,7 +121,7 @@ const History = () => {
             The emergence of competitions not only led to better methods but also to the invention of entirely new 
             puzzles. You can read more about this on the following page:
           </p>
-          <Link to="/varijante">
+          <Link to="/variations">
             <Button variant="outline-primary">
               Learn more about the variations of the Rubik's cube
             </Button>
